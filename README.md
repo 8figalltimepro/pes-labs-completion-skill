@@ -21,7 +21,7 @@ Useful flags:
 Paste this into any coding agent to install the skill plus all base tools:
 
 ```
-Install the pes-labs-completion-skill from GitHub (8figalltimepro/pes-labs-completion-skill) using `npx skills add 8figalltimepro/pes-labs-completion-skill -g`, then run its scripts/check-env.sh with --fix to install any missing base tools, and confirm the skill is ready to use.
+Install the pes-labs-completion-skill from https://github.com/8figalltimepro/pes-labs-completion-skill using `npx skills add 8figalltimepro/pes-labs-completion-skill -g`, then run its scripts/check-env.sh with --fix to install any missing base tools, and confirm the skill is ready to use.
 ```
 
 ## First use per machine
