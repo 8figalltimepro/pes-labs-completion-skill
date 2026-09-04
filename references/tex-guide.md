@@ -26,7 +26,7 @@ Results tables use `booktabs` (`\toprule`, `\midrule`, `\bottomrule`). Numbers c
 
 ## Title page
 
-`\maketitle` with title, student name, student ID, course name, and `\today` as the submission date. No placeholders for name or ID; take them from the user or the assignment brief.
+`\maketitle` with title, course name, and `\today` as the submission date, plus two labeled lines: `Student Name:` and `SRN:`. The agent MUST ask the user for the Student Name and SRN values before writing `report.tex`. Never invent them and never leave placeholders.
 
 ## Compile
 

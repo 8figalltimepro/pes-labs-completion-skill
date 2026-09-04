@@ -27,7 +27,7 @@ Write `manual_steps.md` in the lab folder from [the checklist template](assets/m
 
 ## Phase 5. Report source and screenshot HALT (when deliverables need them)
 
-If the assignment needs a PDF report, build `report.tex` in the lab folder from scratch following [the tex guide](references/tex-guide.md). Image tags, used only when screenshots are part of the deliverables, must match the exact screenshot names from Phase 4. When there are no screenshots, skip the screenshot halt; otherwise HALT until the user confirms `screenshots/` is filled.
+If the assignment needs a PDF report, first ask the user for the Student Name and SRN for the title page, then build `report.tex` in the lab folder from scratch following [the tex guide](references/tex-guide.md). The title page MUST show labeled `Student Name:` and `SRN:` lines with the user-supplied values. Image tags, used only when screenshots are part of the deliverables, must match the exact screenshot names from Phase 4. When there are no screenshots, skip the screenshot halt; otherwise HALT until the user confirms `screenshots/` is filled.
 
 ## Phase 6. Verify and build
 
