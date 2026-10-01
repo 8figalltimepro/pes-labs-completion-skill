@@ -21,7 +21,7 @@ Useful flags:
 Paste this into any coding agent to install the skill plus all base tools:
 
 ```
-Install the pes-labs-completion-skill from https://github.com/8figalltimepro/pes-labs-completion-skill using `npx skills add 8figalltimepro/pes-labs-completion-skill -g`, then run its scripts/check-env.sh with --fix to install any missing base tools, and confirm the skill is ready to use.
+Install the pes-labs-completion-skill from GitHub (8figalltimepro/pes-labs-completion-skill) using `npx skills add 8figalltimepro/pes-labs-completion-skill -g`, then run its scripts/check-env.sh with --fix to install any missing base tools, and confirm the skill is ready to use.
 ```
 
 ## First use per machine
@@ -40,7 +40,9 @@ Add `--fix` to auto-install anything missing on macOS or Debian/Ubuntu. Subject 
 2. The agent writes `<Lab-Info>-plan.md` and waits for your approval.
 3. The agent implements by appending to boilerplate only, then runs everything and records real outputs.
 4. The agent writes `manual_steps.md` covering everything you must do yourself: screenshots (only if the assignment deliverables include figures), tracker updates, submissions. The agent never performs user-side steps.
-5. If a PDF report is a deliverable, the agent writes `report.tex`, waits for your screenshots-ready reply when screenshots apply, verifies with `scripts/verify-lab.sh`, and builds `<Lab>_Report.pdf`.
+5. If a PDF report is a deliverable, the agent writes `report.tex`, waits for your screenshots-ready reply when screenshots apply, sorts and renames whatever you dropped into `screenshots/` onto the names from the checklist, verifies with `scripts/verify-lab.sh`, and builds `<Lab>_Report.pdf`.
+
+Everything the agent writes, the report included, follows the writing rules in `references/style.md`: plain beginner engineering-student English, no em dashes, no AI tell words. If the lab folder has its own rules file such as `AGENTS.md`, that file is followed too.
 
 ## Repo layout
 
